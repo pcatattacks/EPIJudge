@@ -1,3 +1,6 @@
+# vscode
+.vscode
+
 # JetBrains IDEs (CLion, IntelliJ, and PyCharm)
 .idea
 
@@ -22,3 +25,6 @@ __pycache__/
 cpp_build
 
 epi_judge_java/java_build/
+
+# misc
+./test_data/.DS_Store
