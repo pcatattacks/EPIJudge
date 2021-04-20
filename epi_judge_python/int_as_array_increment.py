@@ -3,7 +3,20 @@ from test_framework import generic_test
 
 def plus_one(A):
     # TODO - you fill in here.
-    return []
+    # return []
+    
+    A.reverse()
+    for i in range(len(A)):
+        if A[i] + 1 == 10:
+            A[i] = 0
+            if i == len(A) - 1:
+                A.append(1)
+        else:
+            A[i] += 1
+            break
+    
+    A.reverse()
+    return A
 
 
 if __name__ == '__main__':
